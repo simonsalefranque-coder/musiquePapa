@@ -1,0 +1,13 @@
+{
+  "version": "1.3",
+  "build": "3",
+  "partitionCount": 259,
+  "playlistCount": 1,
+  "checks": {
+    "mêmes_partitions": true,
+    "mêmes_playlists": true,
+    "mêmes_réglages": true,
+    "mêmes_métadonnées_et_préférences": true,
+    "fichiers_partitions_identiques": true
+  }
+}

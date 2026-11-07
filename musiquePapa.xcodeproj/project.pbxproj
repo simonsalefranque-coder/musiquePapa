@@ -6,7 +6,26 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A1000000000000000000000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC11E4C83090C38B00F988D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC11E4CF3090C38B00F988D1;
+			remoteInfo = musiquePapa;
+		};
+		A2000000000000000000000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC11E4C83090C38B00F988D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC11E4CF3090C38B00F988D1;
+			remoteInfo = musiquePapa;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A10000000000000000000002 /* MusiquePapaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MusiquePapaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000002 /* MusiquePapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MusiquePapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC11E4D03090C38B00F988D1 /* musiquePapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musiquePapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -14,13 +33,27 @@
 		EC11E4E53090C38D00F988D1 /* Exceptions for "musiquePapa" folder in "musiquePapa" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				AppDelegate.swift,
 				Info.plist,
+				musiquePapa.xcdatamodeld,
+				SceneDelegate.swift,
+				ViewController.swift,
 			);
 			target = EC11E4CF3090C38B00F988D1 /* musiquePapa */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		A10000000000000000000003 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A20000000000000000000003 /* UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UITests;
+			sourceTree = "<group>";
+		};
 		EC11E4D23090C38B00F988D1 /* musiquePapa */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +65,16 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		A20000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 		EC11E4CD3090C38B00F988D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
@@ -44,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				EC11E4D23090C38B00F988D1 /* musiquePapa */,
+				A10000000000000000000003 /* Tests */,
+				A20000000000000000000003 /* UITests */,
 				EC11E4D13090C38B00F988D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				EC11E4D03090C38B00F988D1 /* musiquePapa.app */,
+				A10000000000000000000002 /* MusiquePapaTests.xctest */,
+				A20000000000000000000002 /* MusiquePapaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +106,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A10000000000000000000001 /* MusiquePapaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000007 /* Build configuration list for PBXNativeTarget "MusiquePapaTests" */;
+			buildPhases = (
+				A10000000000000000000004 /* Sources */,
+				A10000000000000000000005 /* Frameworks */,
+				A10000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1000000000000000000000A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10000000000000000000003 /* Tests */,
+			);
+			name = MusiquePapaTests;
+			productName = MusiquePapaTests;
+			productReference = A10000000000000000000002 /* MusiquePapaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A20000000000000000000001 /* MusiquePapaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20000000000000000000007 /* Build configuration list for PBXNativeTarget "MusiquePapaUITests" */;
+			buildPhases = (
+				A20000000000000000000004 /* Sources */,
+				A20000000000000000000005 /* Frameworks */,
+				A20000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2000000000000000000000A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A20000000000000000000003 /* UITests */,
+			);
+			name = MusiquePapaUITests;
+			productName = MusiquePapaUITests;
+			productReference = A20000000000000000000002 /* MusiquePapaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EC11E4CF3090C38B00F988D1 /* musiquePapa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC11E4E63090C38D00F988D1 /* Build configuration list for PBXNativeTarget "musiquePapa" */;
@@ -93,9 +182,10 @@
 				};
 			};
 			buildConfigurationList = EC11E4CB3090C38B00F988D1 /* Build configuration list for PBXProject "musiquePapa" */;
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				fr,
 				en,
 				Base,
 			);
@@ -106,12 +196,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A10000000000000000000001 /* MusiquePapaTests */,
+				A20000000000000000000001 /* MusiquePapaUITests */,
 				EC11E4CF3090C38B00F988D1 /* musiquePapa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		A20000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 		EC11E4CE3090C38B00F988D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
@@ -120,6 +222,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		A20000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 		EC11E4CC3090C38B00F988D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -127,35 +239,114 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A1000000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC11E4CF3090C38B00F988D1 /* musiquePapa */;
+			targetProxy = A1000000000000000000000B /* PBXContainerItemProxy */;
+		};
+		A2000000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC11E4CF3090C38B00F988D1 /* musiquePapa */;
+			targetProxy = A2000000000000000000000B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A10000000000000000000008 /* Debug configuration for PBXNativeTarget "MusiquePapaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.musiquepapa.MusiquePapaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musiquePapa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/musiquePapa";
+			};
+			name = Debug;
+		};
+		A10000000000000000000009 /* Release configuration for PBXNativeTarget "MusiquePapaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.musiquepapa.MusiquePapaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musiquePapa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/musiquePapa";
+			};
+			name = Release;
+		};
+		A20000000000000000000008 /* Debug configuration for PBXNativeTarget "MusiquePapaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.musiquepapa.MusiquePapaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = musiquePapa;
+			};
+			name = Debug;
+		};
+		A20000000000000000000009 /* Release configuration for PBXNativeTarget "MusiquePapaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.musiquepapa.MusiquePapaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = musiquePapa;
+			};
+			name = Release;
+		};
 		EC11E4E73090C38D00F988D1 /* Debug configuration for PBXNativeTarget "musiquePapa" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HB5278YUZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = musiquePapa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MusiquePapa;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ISA-NUM1.musiquePapa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -165,28 +356,32 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HB5278YUZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = musiquePapa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MusiquePapa;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ISA-NUM1.musiquePapa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -242,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -299,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -312,6 +507,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A10000000000000000000007 /* Build configuration list for PBXNativeTarget "MusiquePapaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000008 /* Debug configuration for PBXNativeTarget "MusiquePapaTests" */,
+				A10000000000000000000009 /* Release configuration for PBXNativeTarget "MusiquePapaTests" */,
+			);
+			defaultConfigurationName = Debug;
+		};
+		A20000000000000000000007 /* Build configuration list for PBXNativeTarget "MusiquePapaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20000000000000000000008 /* Debug configuration for PBXNativeTarget "MusiquePapaUITests" */,
+				A20000000000000000000009 /* Release configuration for PBXNativeTarget "MusiquePapaUITests" */,
+			);
+			defaultConfigurationName = Debug;
+		};
 		EC11E4CB3090C38B00F988D1 /* Build configuration list for PBXProject "musiquePapa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,17 @@
+{
+  "version": "1.3.1",
+  "build": "4",
+  "date": "2026-11-01",
+  "bundleIdentifier": "ISA-NUM1.musiquePapa",
+  "signedDeviceBuild": "succeeded",
+  "codeSignature": "verified",
+  "releaseDeviceBuild": "succeeded",
+  "localRegressionTests": 55,
+  "localRegressionFailures": 0,
+  "finalTargetedTestsIncludingLivePage": 48,
+  "finalTargetedFailures": 0,
+  "realPageDetectedChords": 44,
+  "realPagePreservedChords": 44,
+  "physicalDeviceInstallation": "deferred by user",
+  "physicalDeviceDataChanged": false
+}

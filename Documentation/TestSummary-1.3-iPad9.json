@@ -1,0 +1,56 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "FDAC0965-BE8D-4E6E-B479-F9D66B43C06D",
+        "deviceName" : "MusiquePapa iPad 9",
+        "modelName" : "iPad (9th generation)",
+        "osBuildNumber" : "23C54",
+        "osVersion" : "26.2",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 43,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "musiquePapa · Built with macOS 27.0.1",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1793447115.875,
+  "passedTests" : 43,
+  "result" : "Passed",
+  "runtimeWarnings" : [
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "Adding '_UIReparentingView' as a subview of UIHostingController.view is not supported and may result in a broken view hierarchy. Add your view above UIHostingController.view in a common superview or insert it into your SwiftUI content in a UIViewRepresentable instead."
+    },
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "Adding '_UIReparentingView' as a subview of UIHostingController.view is not supported and may result in a broken view hierarchy. Add your view above UIHostingController.view in a common superview or insert it into your SwiftUI content in a UIViewRepresentable instead."
+    }
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1793446847.793,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - musiquePapa",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "44% of duration",
+      "text" : "1 longest test run with outlier durations exceeding 0.70s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 43
+}

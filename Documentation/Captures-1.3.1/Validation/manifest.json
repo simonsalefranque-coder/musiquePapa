@@ -1,0 +1,47 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "FDAC0965-BE8D-4E6E-B479-F9D66B43C06D",
+        "deviceName" : "MusiquePapa iPad 9",
+        "exportedFileName" : "AEA98F5D-175E-471B-B41A-00DD975FBFC3.pdf",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Source-HTML-originale_0_35310CBF-BD31-4E6D-AFC1-7EB1A867ACF7.pdf",
+        "timestamp" : 1793571104.67
+      }
+    ],
+    "testIdentifier" : "WebScoreExtractionTests/testBACEmptyChordSpansPseudoContentDOMAnchorsAndInstrumental()",
+    "testIdentifierURL" : "test://com.apple.xcode/musiquePapa/MusiquePapaTests/WebScoreExtractionTests/testBACEmptyChordSpansPseudoContentDOMAnchorsAndInstrumental"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "FDAC0965-BE8D-4E6E-B479-F9D66B43C06D",
+        "deviceName" : "MusiquePapa iPad 9",
+        "exportedFileName" : "FF5C6BAB-6815-47F7-A36C-EE476FB70326.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Apercu-accords-importes_0_3C99CAD5-FFB0-4960-A0F7-23C9E72A98AB.png",
+        "timestamp" : 1793571108.108
+      }
+    ],
+    "testIdentifier" : "WebScoreExtractionTests/testSaveReopenPreviewTransposeAndInteractiveChordTargets()",
+    "testIdentifierURL" : "test://com.apple.xcode/musiquePapa/MusiquePapaTests/WebScoreExtractionTests/testSaveReopenPreviewTransposeAndInteractiveChordTargets"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "FDAC0965-BE8D-4E6E-B479-F9D66B43C06D",
+        "deviceName" : "MusiquePapa iPad 9",
+        "exportedFileName" : "09DA9F18-9103-42BD-B47C-D55BE01AD420.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Internet-accords-source-et-resultat_0_ACD3EA24-69D5-4627-B19A-2BA59818E0BC.png",
+        "timestamp" : 1793571130.282
+      }
+    ],
+    "testIdentifier" : "MusiquePapaUITests/testWebImportChordDiagnosticsComparisonSaveAndReopen()",
+    "testIdentifierURL" : "test://com.apple.xcode/musiquePapa/MusiquePapaUITests/MusiquePapaUITests/testWebImportChordDiagnosticsComparisonSaveAndReopen"
+  }
+]
